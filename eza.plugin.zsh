@@ -5,7 +5,9 @@ if ! type eza >/dev/null 2>&1; then
   return 1
 fi
 
-EZA_GIT_IGNORE="--git-ignore"
+#EZA_GIT_IGNORE="--git-ignore"
+# FOA
+EZA_GIT_IGNORE=""
 
 [ -n "${EZA_SHOW_GIT_IGNORED}" ] && EZA_GIT_IGNORE=""
 
